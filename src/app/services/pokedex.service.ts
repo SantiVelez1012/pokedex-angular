@@ -4,12 +4,13 @@ import { GeneralPokeModel } from "../models/general-poke";
 
 
 @Injectable({
-    providedIn:'root'
-});
-
+        providedIn:'root'
+    })
 export class PokedexService{
     allPokes!:GeneralPokeModel[];
     
+    
+
 }
 
 
