@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { GeneralMenuComponent } from './components/general-menu/general-menu.component';
 import { IndividualInfoComponent } from './components/individual-info/individual-info.component';
 import { FooterMainComponent } from './components/layout/footer-main/footer-main.component';
+import { GeneralEncyclopediaComponent } from './components/general-encyclopedia/general-encyclopedia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GeneralMenuComponent,
     IndividualInfoComponent,
-    FooterMainComponent
+    FooterMainComponent,
+    GeneralEncyclopediaComponent
   ],
   imports: [
     BrowserModule,
